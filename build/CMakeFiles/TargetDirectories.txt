@@ -1,0 +1,3 @@
+F:/zTest/cmakefolder/01 easy/build/CMakeFiles/my_project.dir
+F:/zTest/cmakefolder/01 easy/build/CMakeFiles/edit_cache.dir
+F:/zTest/cmakefolder/01 easy/build/CMakeFiles/rebuild_cache.dir

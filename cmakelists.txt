@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(my_project)
+
+# add_executable(main main.c zgt.c)
+
+# 设置C++标准为C++11
+#set(CMAKE_CXX_STANDARD 11)
+include_directories(${CMAKE_SOURCE_DIR}/module)
+include_directories(${CMAKE_SOURCE_DIR})
+
+#引入第三方库搜索路径 这里就以自己定义的第三方库为例。
+#（一般提供第三方库至少需要提供两个内容，一个是头文件，告诉别人有哪些函数可以使用；一个是 .so 或者 .a 文件，即函数定义）
+# link_directories(${CMAKE_SOURCE_DIR}/3rd-part/lib)
+
+file(GLOB ALL_SOURCES
+    ${CMAKE_SOURCE_DIR}/*.c
+    ${CMAKE_SOURCE_DIR}/module/*.c
+
+)
+
+# 生成可执行文件
+add_executable(${PROJECT_NAME} ${ALL_SOURCES})
+
+
+# 链接库文件 
+# 链接库文件（可选）
+# 如果生成可执行文件时，需要用到第三方库的内容，而且前面已经添加了第三方库的搜索路径，那么我们可以让当前可执行文件（目标文件）与库文件建立连接
+# target_link_libraries(${PROJECT_NAME} test)

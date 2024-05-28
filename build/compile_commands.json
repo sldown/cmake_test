@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/zTest/cmakefolder/01 easy/build",
+  "command": "C:/Strawberry/c/bin/gcc.exe  @CMakeFiles/my_project.dir/includes_C.rsp -g -o CMakeFiles/my_project.dir/main.c.obj -c \"F:/zTest/cmakefolder/01 easy/main.c\"",
+  "file": "F:/zTest/cmakefolder/01 easy/main.c",
+  "output": "CMakeFiles/my_project.dir/main.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/01 easy/build",
+  "command": "C:/Strawberry/c/bin/gcc.exe  @CMakeFiles/my_project.dir/includes_C.rsp -g -o CMakeFiles/my_project.dir/module/dsp.c.obj -c \"F:/zTest/cmakefolder/01 easy/module/dsp.c\"",
+  "file": "F:/zTest/cmakefolder/01 easy/module/dsp.c",
+  "output": "CMakeFiles/my_project.dir/module/dsp.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/01 easy/build",
+  "command": "C:/Strawberry/c/bin/gcc.exe  @CMakeFiles/my_project.dir/includes_C.rsp -g -o CMakeFiles/my_project.dir/zgt.c.obj -c \"F:/zTest/cmakefolder/01 easy/zgt.c\"",
+  "file": "F:/zTest/cmakefolder/01 easy/zgt.c",
+  "output": "CMakeFiles/my_project.dir/zgt.c.obj"
+}
+]
