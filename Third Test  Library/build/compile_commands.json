@@ -1,0 +1,14 @@
+[
+{
+  "directory": "F:/zTest/cmakefolder/03 reback/build",
+  "command": "C:/MinGW/bin/gcc.exe  @CMakeFiles/myproj.dir/includes_C.rsp -g -o CMakeFiles/myproj.dir/main.c.obj -c \"F:/zTest/cmakefolder/03 reback/main.c\"",
+  "file": "F:/zTest/cmakefolder/03 reback/main.c",
+  "output": "CMakeFiles/myproj.dir/main.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/03 reback/build/src",
+  "command": "C:/MinGW/bin/gcc.exe   -g -o CMakeFiles/libsrc.dir/s1.c.obj -c \"F:/zTest/cmakefolder/03 reback/src/s1.c\"",
+  "file": "F:/zTest/cmakefolder/03 reback/src/s1.c",
+  "output": "src/CMakeFiles/libsrc.dir/s1.c.obj"
+}
+]

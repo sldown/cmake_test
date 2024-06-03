@@ -1,0 +1,6 @@
+F:/zTest/cmakefolder/02proj/build/CMakeFiles/myproj.elf.dir
+F:/zTest/cmakefolder/02proj/build/CMakeFiles/edit_cache.dir
+F:/zTest/cmakefolder/02proj/build/CMakeFiles/rebuild_cache.dir
+F:/zTest/cmakefolder/02proj/build/GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM/CMakeFiles/arm_cortex_m4_startup.dir
+F:/zTest/cmakefolder/02proj/build/GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM/CMakeFiles/edit_cache.dir
+F:/zTest/cmakefolder/02proj/build/GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM/CMakeFiles/rebuild_cache.dir

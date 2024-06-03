@@ -1,0 +1,3 @@
+aux_source_directory(. DRIVER_SRC)
+ 
+add_library(libsrc ${DRIVER_SRC})    

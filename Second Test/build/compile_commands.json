@@ -1,0 +1,212 @@
+[
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Source\\system_gd32f4xx.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Source\\system_gd32f4xx.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_adc.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_adc.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_can.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_can.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_crc.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_crc.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_ctc.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_ctc.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dac.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dac.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dbg.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dbg.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dci.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dci.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dma.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_dma.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_enet.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_enet.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_exmc.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_exmc.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_exti.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_exti.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_fmc.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_fmc.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_fwdgt.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_fwdgt.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_gpio.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_gpio.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_i2c.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_i2c.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_ipa.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_ipa.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_iref.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_iref.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_misc.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_misc.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_pmu.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_pmu.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_rcu.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_rcu.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_rtc.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_rtc.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_sdio.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_sdio.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_spi.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_spi.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_syscfg.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_syscfg.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_timer.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_timer.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_tli.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_tli.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_trng.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_trng.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_usart.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_usart.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_wwdgt.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Source\\gd32f4xx_wwdgt.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\Project\\cmain.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\Project\\cmain.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/Project/cmain.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/Project/cmain.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\Project\\gd32f4xx_it.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\Project\\gd32f4xx_it.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/Project/gd32f4xx_it.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\Project\\main.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\Project\\main.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/Project/main.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/Project/main.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-gcc.exe -DF:/zTest/cmakefolder/02proj/GD32/Project/gd32f4xx_it.h -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\GD32F4xx_standard_peripheral\\Include -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Project -IF:\\zTest\\cmakefolder\\02proj\\GD32\\Utilities -g -std=c11   -D GD32F450 -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\myproj.elf.dir\\GD32\\Project\\systick.c.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\Project\\systick.c",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/Project/systick.c",
+  "output": "CMakeFiles/myproj.elf.dir/GD32/Project/systick.c.obj"
+},
+{
+  "directory": "F:/zTest/cmakefolder/02proj/build/GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM",
+  "command": "C:\\Tool\\bin\\arm-none-eabi-as.exe   -g   -D GD32F450 -x assembler-with-cpp -mcpu=cortex-m4 -Wall -Wextra -g -gdwarf-2 -mthumb -Os -fdata-sections -ffunction-sections -fmessage-length=0 -o CMakeFiles\\arm_cortex_m4_startup.dir\\startup_gd32f407_427.s.obj -c F:\\zTest\\cmakefolder\\02proj\\GD32\\GD32F4xx_Firmware_Library\\CMSIS\\GD\\GD32F4xx\\Source\\ARM\\startup_gd32f407_427.s",
+  "file": "F:/zTest/cmakefolder/02proj/GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM/startup_gd32f407_427.s",
+  "output": "GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM/CMakeFiles/arm_cortex_m4_startup.dir/startup_gd32f407_427.s.obj"
+}
+]

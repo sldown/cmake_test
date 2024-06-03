@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM",
+		"source" : "GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM"
+	}
+}

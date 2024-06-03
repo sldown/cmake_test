@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM",
+					"jsonFile" : "directory-GD32.GD32F4xx_Firmware_Library.CMSIS.GD.GD32F4xx.Source.ARM-547cb98ce84a0aef1e80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GD32/GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Source/ARM",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "myproj",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "arm_cortex_m4_startup::@b986cf9b9648bbdd6f07",
+					"jsonFile" : "target-arm_cortex_m4_startup-142be6920bbf50922d72.json",
+					"name" : "arm_cortex_m4_startup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "myproj.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myproj.elf-303d728d8583a6237a04.json",
+					"name" : "myproj.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/zTest/cmakefolder/02proj/build",
+		"source" : "F:/zTest/cmakefolder/02proj"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

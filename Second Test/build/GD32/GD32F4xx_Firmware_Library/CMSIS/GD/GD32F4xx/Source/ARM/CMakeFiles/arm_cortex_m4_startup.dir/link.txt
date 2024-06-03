@@ -1,0 +1,2 @@
+arm-none-eabi-ar cr F:\zTest\cmakefolder\02proj\lib\libarm_cortex_m4_startup.a CMakeFiles/arm_cortex_m4_startup.dir/startup_gd32f407_427.s.obj 
+C:\Tool\bin\arm-none-eabi-ranlib.exe F:\zTest\cmakefolder\02proj\lib\libarm_cortex_m4_startup.a

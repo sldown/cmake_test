@@ -1,0 +1,442 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Windows - 10.0.18362 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Tool/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c:\\tool\\arm-none-eabi\\bin\\ld.exe: c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Tool/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        F:/zTest/cmakefolder/02proj/build/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Tool/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c:\\tool\\arm-none-eabi\\bin\\ld.exe: c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Tool/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        F:/zTest/cmakefolder/02proj/build/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n"
+      binary: "F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n'
+        
+        Run Build Command(s): C:/CMK_Tool/cmake-3.27.7-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5f7a2/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5f7a2.dir\\build.make CMakeFiles/cmTC_5f7a2.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n'
+        Building C object CMakeFiles/cmTC_5f7a2.dir/CMakeCCompilerABI.c.obj
+        C:\\Tool\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj -c C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\Tool\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\tool\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccbaSIK4.s
+        GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+        ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 91a756b62f0ae634da43c58967784a0b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccbaSIK4.s
+        GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428
+        COMPILER_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/tool/bin/../lib/gcc/;c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/tool/bin/../lib/gcc/;c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/tool/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+        Linking C static library libcmTC_5f7a2.a
+        C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_5f7a2.dir\\cmake_clean_target.cmake
+        C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5f7a2.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_5f7a2.a CMakeFiles/cmTC_5f7a2.dir/CMakeCCompilerABI.c.obj
+        C:\\Tool\\bin\\arm-none-eabi-ranlib.exe libcmTC_5f7a2.a
+        mingw32-make.exe[1]: Leaving directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include]
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include] ==> [C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include]
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed] ==> [C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include] ==> [C:/Tool/arm-none-eabi/include]
+        implicit include dirs: [C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include;C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include-fixed;C:/Tool/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/CMK_Tool/cmake-3.27.7-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5f7a2/fast]
+        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5f7a2.dir\\build.make CMakeFiles/cmTC_5f7a2.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n']
+        ignore line: [Building C object CMakeFiles/cmTC_5f7a2.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Tool\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj -c C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Tool\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\tool\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccbaSIK4.s]
+        ignore line: [GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"]
+        ignore line: [ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 91a756b62f0ae634da43c58967784a0b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccbaSIK4.s]
+        ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428]
+        ignore line: [COMPILER_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+        ignore line: [c:/tool/bin/../lib/gcc/]
+        ignore line: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+        ignore line: [c:/tool/bin/../lib/gcc/]
+        ignore line: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [c:/tool/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5f7a2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [Linking C static library libcmTC_5f7a2.a]
+        ignore line: [C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_5f7a2.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5f7a2.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_5f7a2.a CMakeFiles/cmTC_5f7a2.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Tool\\bin\\arm-none-eabi-ranlib.exe libcmTC_5f7a2.a]
+        ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-c8dj1n']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8"
+      binary: "F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8'
+        
+        Run Build Command(s): C:/CMK_Tool/cmake-3.27.7-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_1b1d1/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1b1d1.dir\\build.make CMakeFiles/cmTC_1b1d1.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8'
+        Building CXX object CMakeFiles/cmTC_1b1d1.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Tool\\bin\\arm-none-eabi-g++.exe   -v -o CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\Tool\\bin\\arm-none-eabi-g++.exe
+        Target: arm-none-eabi
+        Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\tool\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccZ8vkT4.s
+        GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+        ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+        ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+         c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 039a747603c92557e970a6b8d085a704
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccZ8vkT4.s
+        GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428
+        COMPILER_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/tool/bin/../lib/gcc/;c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/tool/bin/../lib/gcc/;c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/tool/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+        Linking CXX static library libcmTC_1b1d1.a
+        C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_1b1d1.dir\\cmake_clean_target.cmake
+        C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1b1d1.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_1b1d1.a CMakeFiles/cmTC_1b1d1.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Tool\\bin\\arm-none-eabi-ranlib.exe libcmTC_1b1d1.a
+        mingw32-make.exe[1]: Leaving directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1]
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi]
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward]
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include]
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+          add: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1] ==> [C:/Tool/arm-none-eabi/include/c++/9.3.1]
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi] ==> [C:/Tool/arm-none-eabi/include/c++/9.3.1/arm-none-eabi]
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward] ==> [C:/Tool/arm-none-eabi/include/c++/9.3.1/backward]
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include] ==> [C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include]
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed] ==> [C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+        collapse include dir [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include] ==> [C:/Tool/arm-none-eabi/include]
+        implicit include dirs: [C:/Tool/arm-none-eabi/include/c++/9.3.1;C:/Tool/arm-none-eabi/include/c++/9.3.1/arm-none-eabi;C:/Tool/arm-none-eabi/include/c++/9.3.1/backward;C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include;C:/Tool/lib/gcc/arm-none-eabi/9.3.1/include-fixed;C:/Tool/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/CMK_Tool/cmake-3.27.7-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_1b1d1/fast]
+        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1b1d1.dir\\build.make CMakeFiles/cmTC_1b1d1.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1b1d1.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Tool\\bin\\arm-none-eabi-g++.exe   -v -o CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Tool\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw --libexecdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-libelf=/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 9-2020-q2-update.20201001-1621' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 9.3.1 20200408 (release) (GNU Tools for STM32 9-2020-q2-update.20201001-1621) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\tool\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccZ8vkT4.s]
+        ignore line: [GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"]
+        ignore line: [ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_9-2020-q2-update.20201001-1621/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/tool/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "c:\\tool\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+        ignore line: [ c:\\tool\\bin\\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (GNU Tools for STM32 9-2020-q2-update.20201001-1621) version 9.3.1 20200408 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 039a747603c92557e970a6b8d085a704]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hl0379\\AppData\\Local\\Temp\\ccZ8vkT4.s]
+        ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428]
+        ignore line: [COMPILER_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+        ignore line: [c:/tool/bin/../lib/gcc/]
+        ignore line: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+        ignore line: [c:/tool/bin/../lib/gcc/]
+        ignore line: [c:/tool/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [c:/tool/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1b1d1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [Linking CXX static library libcmTC_1b1d1.a]
+        ignore line: [C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_1b1d1.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\CMK_Tool\\cmake-3.27.7-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1b1d1.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_1b1d1.a CMakeFiles/cmTC_1b1d1.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Tool\\bin\\arm-none-eabi-ranlib.exe libcmTC_1b1d1.a]
+        ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/zTest/cmakefolder/02proj/build/CMakeFiles/CMakeScratch/TryCompile-ys5ks8']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
+      - "C:/CMK_Tool/cmake-3.27.7-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:23 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      GNU assembler (GNU Tools for STM32 9-2020-q2-update.20201001-1621) 2.34.0.20200428
+      Copyright (C) 2020 Free Software Foundation, Inc.
+      This program is free software; you may redistribute it under the terms of
+      the GNU General Public License version 3 or later.
+      This program has absolutely no warranty.
+      This assembler was configured for a target of `arm-none-eabi'.
+...
